@@ -129,7 +129,8 @@ const updateOrderToPaid = async (req, res) => {
 			id       : data.id,
 			currency : data.currency,
 			created  : data.created,
-			amount   : amount
+			amount   : amount,
+			receipt_url : data.receipt_url
 		};
 		const updatedOrder = await order.save();
 

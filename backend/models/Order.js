@@ -38,7 +38,8 @@ const orderSchema = mongoose.Schema(
 			id        : { type: String },
 			currency  : { type: String },
 			created : { type: Number },
-			amount    : { type: Number }
+			amount    : { type: Number },
+			receipt_url : { type: String }
 		},
 		itemsPrice      : {
 			type     : Number,
