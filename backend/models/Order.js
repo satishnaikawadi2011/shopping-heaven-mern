@@ -37,7 +37,7 @@ const orderSchema = mongoose.Schema(
 		paymentResult   : {
 			id        : { type: String },
 			currency  : { type: String },
-			createdAt : { type: Number },
+			created : { type: Number },
 			amount    : { type: Number }
 		},
 		itemsPrice      : {
